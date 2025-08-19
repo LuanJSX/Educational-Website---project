@@ -60,7 +60,7 @@ export const homeAbout = [
     {
       id: 2,
       cover: "../images/courses/c2.png",
-      coursesName: "Aprimorando Habilidades no Photoshop CC 2020",
+      coursesName: "Aprimorando Habilidades Photoshop",
       courTeacher: [
         {
           dcover: "/public/wr.png",

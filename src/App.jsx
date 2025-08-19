@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
  import Team from "./assets/components/team/Team.jsx";
 import Prince from "./assets/components/pricing/Prince.jsx";
 import Blog from "./assets/components/blog/Blog.jsx";
+import Contact from "./assets/components/contact/Contact.jsx";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path="/professores" element={<Team />} />
             <Route path="/planos" element={<Prince />} />
             <Route path="/noticias" element={<Blog />} />
+            <Route path="/conosco" element={<Contact />} />
           </Routes>
         }
       </Router>
