@@ -1,0 +1,58 @@
+.testimonial .items {
+    padding: 30px;
+    transition: 0.5s;
+
+}
+
+.testimonial .img {
+    position: relative;
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.testimonial i {
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+    background-color: #0866ff;
+    color: white;
+}
+
+.testimonial .name {
+    margin: 25px;
+}
+
+.testimonial .name h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.testimonial .name span {
+    color: #0866ff;
+}
+
+.testimonial p {
+    margin-top: 20px;
+    color: gray;
+    transition: 0.5s;
+}
+
+.testimonial .items:hover {
+    background-color: #0866ff;
+    color: white;
+    cursor: pointer;
+}
+
+.testimonial .items:hover p,
+.testimonial .items:hover span {
+        color: white;
+}
+
+.testimonial .items:hover i {
+    background-color: white;
+    color: #0866ff;
+}
