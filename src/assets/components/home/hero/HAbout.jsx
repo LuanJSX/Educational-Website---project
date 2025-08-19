@@ -11,7 +11,7 @@ function HAbout() {
                          <div className="coursesCard">
                             <Title subtitle='Nossos cursos' title="Conheça os cursos online mais procurados"/>
                            <div className="grid2">
-                             {coursesCard.slice(0, 3).map((val) => {
+                             {coursesCard.slice(0, 2).map((val) => {
                                return (
                                  <div className="items">
                                    <div className="content flex">

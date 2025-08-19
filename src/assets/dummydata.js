@@ -201,13 +201,29 @@ export const homeAbout = [
     { cover: "./courses/team/t3.webp", name: "Dr. Carlos Mendes", work: "DESENVOLVEDOR E PROFESSOR PRINCIPAL" },
     { cover: "./courses/team/t4.webp", name: "Dra. Fernanda Souza", work: "DESENVOLVEDORA E PROFESSORA PRINCIPAL" },
   ]
-  
   export const price = [
-    { name: "PLANO BÁSICO", price: "R$ 49", desc: "Ideal para quem está começando e quer explorar os cursos iniciais." },
-    { name: "PLANO INICIANTE", price: "R$ 79", desc: "Mais recursos e acesso a cursos intermediários." },
-    { name: "PLANO PREMIUM", price: "R$ 109", desc: "Perfeito para quem busca conhecimento avançado e certificado." },
-    { name: "PLANO ILIMITADO", price: "R$ 149", desc: "Acesso total a todos os cursos, materiais e suporte exclusivo." },
+    { 
+      name: "PLANO BÁSICO", 
+      price: "R$ 49", 
+      desc: "Plano ideal para quem está começando e quer explorar os cursos iniciais." 
+    },
+    { 
+      name: "PLANO INICIANTE", 
+      price: "R$ 79", 
+      desc: "Mais recursos disponíveis e acesso direto a cursos intermediários ao avaçado." 
+    },
+    { 
+      name: "PLANO PREMIUM", 
+      price: "R$ 109", 
+      desc: "Perfeito para quem busca aprendizado avançado com certificado incluso." 
+    },
+    { 
+      name: "PLANO ILIMITADO", 
+      price: "R$ 149", 
+      desc: "Acesso total a todos os cursos, materiais de apoio e suporte exclusivo." 
+    },
   ]
+  
   
   export const faq = [
     { title: "Como me inscrevo nos cursos online?", desc: "Você pode se inscrever acessando a página de cursos, escolhendo o que deseja e clicando em 'Matricular-se'." },
