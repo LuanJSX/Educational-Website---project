@@ -204,7 +204,7 @@ export const homeAbout = [
   
   export const price = [
     { name: "PLANO BÁSICO", price: "R$ 49", desc: "Ideal para quem está começando e quer explorar os cursos iniciais." },
-    { name: "PLANO INICIANTE", price: "R$ 79", desc: "Mais recursos e acesso a cursos intermediários ao avançado." },
+    { name: "PLANO INICIANTE", price: "R$ 79", desc: "Mais recursos e acesso a cursos intermediários." },
     { name: "PLANO PREMIUM", price: "R$ 109", desc: "Perfeito para quem busca conhecimento avançado e certificado." },
     { name: "PLANO ILIMITADO", price: "R$ 149", desc: "Acesso total a todos os cursos, materiais e suporte exclusivo." },
   ]
