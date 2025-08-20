@@ -193,6 +193,9 @@ footer .items .text {
     .newletter input {
         height: 42px;
     }
+    footer .last ul li {
+        align-items: flex-start;
+    }
 }
 
 /* Tablet & small desktop responsiveness */

@@ -165,6 +165,9 @@
     .coursesCard .items {
         padding: 18px;
     }
+    .coursesCard .details .box {
+        flex-wrap: wrap;
+    }
     .coursesCard .text h1 {
         font-size: 22px;
         line-height: 30px;

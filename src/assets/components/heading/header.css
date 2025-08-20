@@ -93,6 +93,12 @@ header ul li a:hover {
   }
 }
 
+@media screen and (max-width: 576px) {
+  header {
+    margin: 0;
+  }
+}
+
 /* Tablet & small desktop responsiveness */
 @media screen and (min-width: 769px) and (max-width: 1040px) {
   header {
