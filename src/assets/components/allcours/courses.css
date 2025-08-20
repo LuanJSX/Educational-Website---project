@@ -137,3 +137,25 @@
 .online .box:hover h1 {
     color: #fff;
 }
+
+/* Tablet & small desktop responsiveness */
+@media screen and (min-width: 769px) and (max-width: 1040px) {
+    .coursesCard .items {
+        padding: 24px;
+    }
+    .coursesCard .text h1 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .coursesCard .price {
+        margin: 24px 0;
+        padding: 16px;
+    }
+    .online .box {
+        padding: 24px 16px;
+    }
+    .online h1 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}

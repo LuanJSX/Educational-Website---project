@@ -60,3 +60,13 @@
 .team .items:hover .overlay {
     opacity: 1;
 }
+
+/* Tablet & small desktop responsiveness */
+@media screen and (min-width: 769px) and (max-width: 1040px) {
+    .team .details {
+        padding: 24px;
+    }
+    .team .details h2 {
+        font-size: 18px;
+    }
+}

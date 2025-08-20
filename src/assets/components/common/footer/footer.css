@@ -187,3 +187,14 @@ footer .items .text {
         align-items: flex-start;
     }
 }
+
+/* Tablet & small desktop responsiveness */
+@media screen and (min-width: 769px) and (max-width: 1040px) {
+    /* Keep existing column counts from other breakpoints; only adjust spacing */
+    footer .container {
+        grid-gap: 24px;
+    }
+    .newletter .right {
+        gap: 12px;
+    }
+}

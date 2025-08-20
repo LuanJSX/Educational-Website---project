@@ -56,3 +56,14 @@
     background-color: white;
     color: #0866ff;
 }
+
+/* Tablet & small desktop responsiveness */
+@media screen and (min-width: 769px) and (max-width: 1040px) {
+    .testimonial .items {
+        padding: 24px;
+    }
+    .testimonial img {
+        width: 90px;
+        height: 90px;
+    }
+}

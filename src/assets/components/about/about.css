@@ -81,6 +81,22 @@
     .aboutHome{
         margin-top: 80%;
 }
+
+/* Tablet & small desktop responsiveness */
+@media screen and (min-width: 769px) and (max-width: 1040px) {
+    .aboutHome .right {
+        padding: 50px 30px;
+    }
+    .aboutHome .img {
+        width: 160px;
+    }
+    .awrapper {
+        height: 40vh;
+    }
+    .awrapper h1 {
+        font-size: 42px;
+    }
+}
     .aboutHome .container {
         flex-direction: column-reverse;
     }

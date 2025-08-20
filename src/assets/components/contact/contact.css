@@ -58,3 +58,10 @@
         width: 100%;
     }
 }
+
+/* Tablet & small desktop responsiveness */
+@media screen and (min-width: 769px) and (max-width: 1040px) {
+    .contact .right {
+        padding: 30px;
+    }
+}

@@ -92,3 +92,22 @@ header ul li a:hover {
     background-color: #0866ff;
   }
 }
+
+/* Tablet & small desktop responsiveness */
+@media screen and (min-width: 769px) and (max-width: 1040px) {
+  header {
+    margin: 0 15px;
+  }
+  header ul {
+    padding: 20px 15px;
+  }
+  header li {
+    margin-right: 24px;
+  }
+  .start {
+    padding: 20px 40px;
+  }
+  .logo h1 {
+    font-size: 30px;
+  }
+}

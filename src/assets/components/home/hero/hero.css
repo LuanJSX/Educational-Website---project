@@ -45,3 +45,18 @@
         width: 100%;
     }
 }
+
+/* Tablet & small desktop responsiveness */
+@media screen and (min-width: 769px) and (max-width: 1040px) {
+  .hero {
+    background-position: right center;
+    padding-top: 35%;
+    height: 90vh;
+  }
+  .hero .row {
+    width: 90%;
+  }
+  .hero #heading h1 {
+    font-size: 48px;
+  }
+}

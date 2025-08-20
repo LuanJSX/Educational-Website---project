@@ -198,6 +198,55 @@ p {
   
 }
 
+/* Tablet & small desktop responsiveness */
+@media screen and (min-width: 769px) and (max-width: 1040px) {
+  .container {
+    max-width: 92%;
+  }
+
+  #heading h1 {
+    font-size: 36px;
+  }
+  #heading h3 {
+    letter-spacing: 0.5px;
+  }
+  p {
+    font-size: 17px;
+    line-height: 28px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
+  }
+  .grid2 {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  .grid3 {
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 16px;
+  }
+
+  .back {
+    padding-top: 35%;
+    height: 90vh;
+  }
+  .back h1 {
+    font-size: 64px;
+  }
+  .marigin {
+    margin-top: 60%;
+  }
+
+  button {
+    padding: 14px 24px;
+    margin: 20px 10px 0 0;
+  }
+  .outline-btn {
+    width: auto;
+  }
+}
   #heading h1 {
     font-size: 20px;
     background-color: #0866ff;  
