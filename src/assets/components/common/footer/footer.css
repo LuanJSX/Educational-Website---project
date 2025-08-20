@@ -47,7 +47,7 @@ footer {
     
     footer .container {
         display: grid;
-        grid-template-columns: repeat(2, 1fr)
+        grid-template-columns: repeat(2, 1fr);
        
     }
 }
@@ -127,4 +127,63 @@ footer .last  i {
     padding: 50px;
     color: rgb(255, 255, 255);
     background-color: #0866ff;
+}
+
+/* Footer responsive and alignment improvements */
+/* Space between meta spans (fixes "admin25 APR 2023" running together) */
+footer .items .text span {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-right: 12px;
+}
+
+/* Ensure recent post item layout is consistent */
+footer .items {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+footer .items.flexSB {
+    justify-content: flex-start;
+}
+footer .items .text {
+    display: block;
+}
+
+/* Newsletter responsiveness */
+@media screen and (max-width: 992px) {
+    footer .container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .newletter .container {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 16px;
+    }
+    .newletter .left,
+    .newletter .right {
+        padding-right: 0;
+        width: 100%;
+    }
+    .newletter .right {
+        gap: 10px;
+    }
+    .newletter input {
+        height: 44px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    footer .container {
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+    footer .items {
+        align-items: flex-start;
+    }
 }
