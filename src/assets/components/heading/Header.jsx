@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from "./Head";
-import "./Header.css";
+import "./header.css";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
