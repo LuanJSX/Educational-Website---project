@@ -208,6 +208,47 @@ p {
   display: block;
   
 }
+  #heading h1 {
+    font-size: 28px;
+    margin: 16px 0;
+  }
+  #heading h3 {
+    line-height: 1.3;
+    padding: 12px 0;
+  } 
+   .grid3, 
+   .grid2,
+   .grid {
+    grid-template-columns: repeat(2,
+    1fr);
+   }
+
+  .back {
+    background-position: center;
+    background-attachment: scroll;
+    padding-top: 50% !important;
+    height: 80vh;
+    padding-right: 0 !important;
+  }
+  .marigin {
+    margin-top: 80vh;
+  }
+  
+  .outline-btn {
+   margin: auto;
+  }
+
+  text-prince{
+    text-align: center;
+    position: absolute;
+  }
+
+  .row {
+    width: 100%;
+  }
+
+
+}
 
 /* Phones */
 @media screen and (max-width: 576px) {
@@ -234,24 +275,33 @@ p {
   .back {
     padding-top: 60% !important;
     height: 75vh;
+    background-attachment: scroll;
   }
   .back h1 {
     font-size: 48px;
   }
   .marigin {
-    margin-top: 95%;
+    margin-top: 65vh;
   }
   button {
     padding: 12px 18px;
     margin: 16px 8px 0 0;
   }
+  .button {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .flexSB {
+    flex-wrap: wrap;
+  }
 }
+
 /* Tablet & small desktop responsiveness */
 @media screen and (min-width: 769px) and (max-width: 1040px) {
   .container {
     max-width: 92%;
   }
-
   #heading h1 {
     font-size: 36px;
   }
@@ -262,7 +312,6 @@ p {
     font-size: 17px;
     line-height: 28px;
   }
-
   .grid {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 24px;
@@ -275,7 +324,6 @@ p {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 16px;
   }
-
   .back {
     padding-top: 35%;
     height: 90vh;
@@ -286,7 +334,6 @@ p {
   .marigin {
     margin-top: 60%;
   }
-
   button {
     padding: 14px 24px;
     margin: 20px 10px 0 0;
@@ -295,50 +342,3 @@ p {
     width: auto;
   }
 }
-  #heading h1 {
-    font-size: 20px;
-    background-color: #0866ff;  
-    margin: 20px 0;
-    
-  }
-  #heading h3 {
-   /*  font-size: 25px; */
-    line-height: 1.4;
-    padding: 25px 0;
-    
-   
-    
-  } 
-   .grid3, 
-   .grid2,
-   .grid {
-    grid-template-columns: repeat(2,
-    1fr);
-   }
-
-  .back {
-    background-position: center;
-    padding-top: 50% !important;
-    height: 80vh;
-    padding-right: 0 !important;
-  }
-  .marigin {
-    margin-top: 85%;
-  }
-  
-  .outline-btn {
-   margin: auto;
-  }
-
-  text-prince{
-    text-align: center;
-    position: absolute;
-  }
-
-  .row {
-    width: 100%;
-  }
-
-
-}
-
