@@ -111,3 +111,20 @@ header ul li a:hover {
     font-size: 30px;
   }
 }
+
+/* Phones */
+@media screen and (max-width: 576px) {
+  .logo h1 {
+    font-size: 26px;
+  }
+  .start {
+    padding: 16px 24px;
+  }
+  header ul li {
+    margin-bottom: 16px;
+  }
+  .toggle {
+    font-size: 26px;
+    top: -10px;
+  }
+}

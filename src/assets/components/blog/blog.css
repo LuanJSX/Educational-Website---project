@@ -51,3 +51,15 @@
     }
 }
 
+/* Phones */
+@media screen and (max-width: 576px) {
+    .blog .text {
+        padding: 22px 16px;
+    }
+    .blog h1 {
+        font-size: 18px;
+        line-height: 26px;
+        margin: 14px 0;
+    }
+}
+

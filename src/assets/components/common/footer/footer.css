@@ -186,6 +186,13 @@ footer .items .text {
     footer .items {
         align-items: flex-start;
     }
+    .newletter .right {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .newletter input {
+        height: 42px;
+    }
 }
 
 /* Tablet & small desktop responsiveness */

@@ -70,3 +70,13 @@
         font-size: 18px;
     }
 }
+
+/* Phones */
+@media screen and (max-width: 576px) {
+    .team .details {
+        padding: 20px;
+    }
+    .team .details h2 {
+        font-size: 17px;
+    }
+}

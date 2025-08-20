@@ -159,3 +159,25 @@
         line-height: 28px;
     }
 }
+
+/* Phones */
+@media screen and (max-width: 576px) {
+    .coursesCard .items {
+        padding: 18px;
+    }
+    .coursesCard .text h1 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .coursesCard .price {
+        margin: 16px 0;
+        padding: 14px;
+    }
+    .online .box {
+        padding: 18px 14px;
+    }
+    .online h1 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

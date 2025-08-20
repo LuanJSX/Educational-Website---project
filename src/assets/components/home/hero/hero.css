@@ -60,3 +60,15 @@
     font-size: 48px;
   }
 }
+
+/* Phones */
+@media screen and (max-width: 576px) {
+  .hero {
+    background-position: center;
+    padding-top: 60%;
+    height: 75vh;
+  }
+  .hero #heading h1 {
+    font-size: 32px;
+  }
+}

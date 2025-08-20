@@ -65,3 +65,16 @@
         max-width: 85%;
     }
 }
+
+/* Phones */
+@media screen and (max-width: 576px) {
+    .price .items {
+        padding: 24px;
+    }
+    .price h1 {
+        font-size: 34px;
+    }
+    .faq .container {
+        max-width: 95%;
+    }
+}

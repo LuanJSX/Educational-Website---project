@@ -67,3 +67,14 @@
         height: 90px;
     }
 }
+
+/* Phones */
+@media screen and (max-width: 576px) {
+    .testimonial .items {
+        padding: 18px;
+    }
+    .testimonial img {
+        width: 80px;
+        height: 80px;
+    }
+}
