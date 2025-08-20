@@ -49,7 +49,7 @@ export const homeAbout = [
       coursesName: "Introdução à Engenharia de Software",
       courTeacher: [
         {
-          dcover: "/public/wr.png",
+          dcover: "/wr.png",
           name: "por João Silva",
           totalTime: "50 aulas (190 hrs)",
         },
