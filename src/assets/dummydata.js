@@ -63,7 +63,7 @@ export const homeAbout = [
       coursesName: "Aprimorando Habilidades Photoshop",
       courTeacher: [
         {
-          dcover: "/public/wr.png",
+          dcover: "/wr.png",
           name: "por Carlos Almeida",
           totalTime: "30 aulas (125 hrs)",
         },
@@ -77,7 +77,7 @@ export const homeAbout = [
       coursesName: "HTML, CSS e Javascript para Desenvolvedores Web",
       courTeacher: [
         {
-          dcover: "/public/wr.png",
+          dcover: "/wr.png",
           name: "por Mariana Costa",
           totalTime: "50 aulas (50 hrs)",
         },
@@ -91,7 +91,7 @@ export const homeAbout = [
       coursesName: "Introdução à Programação com WordPress",
       courTeacher: [
         {
-          dcover: "/public/wr.png",
+          dcover: "/wr.png",
           name: "por Pedro Martins",
           totalTime: "20 aulas (20 hrs)",
         },
@@ -105,7 +105,7 @@ export const homeAbout = [
       coursesName: "Introdução à Programação com ReactJS",
       courTeacher: [
         {
-          dcover: "/public/wr.png",
+          dcover: "/wr.png",
           name: "por Fernanda Lopes",
           totalTime: "100 aulas (150 hrs)",
         },
@@ -119,7 +119,7 @@ export const homeAbout = [
       coursesName: "Aprenda Linguagens de Programação Frontend",
       courTeacher: [
         {
-          dcover: "/public/wr.png",
+          dcover: "/wr.png",
           name: "por Felipe Moreira",
           totalTime: "200 aulas (300 hrs)",
         },
@@ -133,7 +133,7 @@ export const homeAbout = [
       coursesName: "Introdução ao HTML / CSS(introdutório)",
       courTeacher: [
         {
-          dcover: "/public/wr.png",
+          dcover: "/wr.png",
           name: "por Camila Rocha",
           totalTime: "20 aulas (50 hrs)",
         },
@@ -147,7 +147,7 @@ export const homeAbout = [
       coursesName: "Introdução à Programação com JAVA",
       courTeacher: [
         {
-          dcover: "/public/wr.png",
+          dcover: "/wr.png",
           name: "por Lucas Ferreira",
           totalTime: "80 aulas (200 hrs)",
         },
@@ -161,7 +161,7 @@ export const homeAbout = [
       coursesName: "HTML / CSS / JAVASCRIPT Completo",
       courTeacher: [
         {
-          dcover: "/public/wr.png",
+          dcover: "/wr.png",
           name: "por Rafael Santos",
           totalTime: "50 aulas (50 hrs)",
         },
