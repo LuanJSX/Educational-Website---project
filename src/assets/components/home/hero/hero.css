@@ -48,7 +48,7 @@
 }
 
 /* Tablet & small desktop responsiveness */
-@media screen and (min-width: 769px) and (max-width: 1040px) {
+@media screen and (min-width: 768px) and (max-width: 1040px) {
   .hero {
     background-position: right center;
     padding-top: 35%;
