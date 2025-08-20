@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Prince from "./assets/components/pricing/Prince.jsx";
 import Blog from "./assets/components/blog/Blog.jsx";
 import Contact from "./assets/components/contact/Contact.jsx";
+import Footer from "./assets/components/common/footer/Footer.jsx";
 
 function App() {
   return (
@@ -24,7 +25,9 @@ function App() {
             <Route path="/noticias" element={<Blog />} />
             <Route path="/conosco" element={<Contact />} />
           </Routes>
+         
         }
+         <Footer/>
       </Router>
     </div>
   );
