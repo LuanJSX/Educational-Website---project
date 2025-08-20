@@ -51,7 +51,7 @@
 }
 
 .awrapper {
-    background-image: url("../../public/awrapper.webp");
+    background-image: url("/awrapper.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
