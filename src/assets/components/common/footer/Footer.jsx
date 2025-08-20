@@ -22,7 +22,7 @@ function Footer() {
         <div className="container padding">
           <div className="box logo">
             <h1 id="tr">Academia</h1>
-            <span>Online Education</span>
+            <span>Educação Online</span>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
             <i className="fab fa-facebook-f icon"></i>
             <i className="fab fa-instagram icon"></i>
@@ -30,7 +30,7 @@ function Footer() {
             <i className="fab fa-linkedin icon"></i>
           </div>
           <div className="box link">
-            <h3>Explore</h3>
+            <h3>Explorar</h3>
             <ul>
                 {<li>about us</li>}
                 {<li>about us</li>}
@@ -39,7 +39,7 @@ function Footer() {
             </ul>
           </div>
           <div className="box link">
-            <h3>Quick Links</h3>
+            <h3>Links Rápidos</h3>
             <ul>
                 {<li>about us</li>}
                 {<li>about us</li>}
@@ -48,7 +48,7 @@ function Footer() {
             </ul>
           </div>
           <div className="bxo">
-            <h3>Recent Post</h3>
+            <h3>Postagens Recentes</h3>
             {blog.slice(0.3).map((val) => {
                 return (
                   <div className="items flexSB">
@@ -71,7 +71,7 @@ function Footer() {
             })}
           </div>
           <div className="box last">
-                <h3>Have a Questions?</h3>
+                <h3>Tem alguma dúvida?</h3>
                 <ul>
                     <li>
                         <i className="fa fa-map"></i>
