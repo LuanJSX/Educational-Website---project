@@ -10,7 +10,7 @@ function AboutCard() {
       <section className="aboutHome">
         <div className="container flexSB">
           <div className="left row">
-            <img src="public/WW.png" alt="" />
+            <img src="/public/WW.png" alt="" />
           </div>
           <div className="right row">
             <Title
